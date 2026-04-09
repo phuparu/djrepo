@@ -21,7 +21,7 @@ function App() {
             <p className="text-gray-600">{resume.summary}</p>
             <div className="mt-4 flex flex-wrap gap-2">
                 {resume.skills.map(skill => (
-                  <span key={skill.name} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">{skill.name}</span>
+                  <span key={skill.name} className="bg-blue-300 text-blue-800 text-xs px-2 py-1 rounded">{skill.name}</span>
                 ))}
             </div>
           </div>
